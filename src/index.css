@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+html { background: #0B1220; scrollbar-color: #24314F transparent; scrollbar-width: thin; }
+html, body, #root { min-height: 100%; }
+body {
+  @apply bg-bg text-ink font-sans antialiased;
+  -webkit-tap-highlight-color: transparent;
+}
+/* brilho de fundo fixo (funciona também no celular, ao contrário de background-attachment: fixed) */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(700px 420px at 15% -120px, rgb(45 212 191 / 0.13), transparent 70%),
+    radial-gradient(600px 400px at 110% 10%, rgb(56 189 248 / 0.08), transparent 70%),
+    radial-gradient(800px 500px at 50% 120%, rgb(45 212 191 / 0.06), transparent 70%);
+}
+
+/* barra de rolagem escura */
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #24314F; border-radius: 999px; border: 2px solid #0B1220; }
+::-webkit-scrollbar-thumb:hover { background: #2DD4BF66; }
+::-webkit-scrollbar-corner { background: transparent; }
+
+::selection { background: rgb(45 212 191 / 0.35); }
+
+@layer components {
+  .card {
+    @apply relative rounded-2xl border border-white/[0.06] bg-surface/80 backdrop-blur-sm;
+    background-image: linear-gradient(180deg, rgb(255 255 255 / 0.035), transparent 40%);
+    box-shadow: 0 1px 0 rgb(255 255 255 / 0.04) inset, 0 12px 32px -16px rgb(0 0 0 / 0.6);
+  }
+  a.card, button.card { @apply transition duration-200 hover:border-accent/30 active:scale-[.99]; }
+  .btn { @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-3 font-semibold transition active:scale-[.98] disabled:opacity-50; }
+  .btn-primary {
+    @apply btn text-bg hover:brightness-110;
+    background-image: linear-gradient(135deg, #2DD4BF, #38BDF8);
+    box-shadow: 0 8px 24px -10px rgb(45 212 191 / 0.7);
+  }
+  .btn-ghost { @apply btn bg-surface-2/80 text-ink border border-white/[0.06] hover:border-accent/40; }
+  .chip { @apply inline-flex shrink-0 items-center gap-1 whitespace-nowrap rounded-full px-3 py-1.5 text-xs font-medium bg-surface-2/70 border border-white/[0.06] text-muted transition; }
+  .chip-on { @apply chip bg-accent/15 border-accent/40 text-accent; }
+  .h1 { @apply font-display text-[26px] font-bold tracking-tight; }
+  .h2 { @apply font-display text-lg font-semibold tracking-tight; }
+  .label { @apply text-[11px] uppercase tracking-[0.12em] text-muted font-semibold; }
+  .titulo-grad { @apply bg-gradient-to-r from-ink via-ink to-accent bg-clip-text text-transparent; }
+}
+
+/* fundo das imagens que ainda não foram geradas */
+.placeholder { background: linear-gradient(135deg, #12304A 0%, #0F1D33 55%, #0E2B35 100%); }
+.placeholder-grid {
+  background-image: linear-gradient(rgb(255 255 255 / 0.05) 1px, transparent 1px), linear-gradient(90deg, rgb(255 255 255 / 0.05) 1px, transparent 1px);
+  background-size: 22px 22px;
+  mask-image: radial-gradient(circle at 50% 50%, black, transparent 75%);
+}
+
+/* fotos do free-exercise-db: tira o branco estourado e combina com o tema */
+.foto-exercicio { filter: brightness(0.82) contrast(1.08) saturate(0.9); }
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { scrollbar-width: none; }
+.pb-safe { padding-bottom: calc(env(safe-area-inset-bottom) + 96px); }
+
+input[type="range"] { accent-color: #2DD4BF; }

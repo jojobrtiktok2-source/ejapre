@@ -1,0 +1,210 @@
+{
+  "aviso": "Nenhum alimento sozinho cura a ejaculação precoce. A alimentação ajuda porque melhora circulação, hormônios, sono e ansiedade, que influenciam o controle. Use junto com os exercícios.",
+  "nutrientes": [
+    {
+      "id": "zinco",
+      "nome": "Zinco",
+      "papel": "Participa da produção de testosterona e da saúde da próstata. Deficiência de zinco está ligada a baixa libido e problemas sexuais.",
+      "meta": "11 mg por dia para homens adultos",
+      "fontes": ["Ostras", "Carne vermelha magra", "Semente de abóbora", "Frango", "Grão-de-bico", "Castanha de caju"]
+    },
+    {
+      "id": "magnesio",
+      "nome": "Magnésio",
+      "papel": "Relaxa músculos e nervos, ajuda no sono e na regulação do estresse. Alguns estudos encontraram magnésio mais baixo em homens com ejaculação precoce.",
+      "meta": "400 a 420 mg por dia",
+      "fontes": ["Folhas verde-escuras", "Banana", "Abacate", "Amêndoas", "Chocolate 70%", "Feijão"]
+    },
+    {
+      "id": "vitamina-d",
+      "nome": "Vitamina D",
+      "papel": "Estudos associam níveis baixos de vitamina D à ejaculação precoce e à disfunção erétil. Também influencia testosterona e humor.",
+      "meta": "Peça exame de sangue ao médico. Sol de 15 a 20 minutos por dia ajuda.",
+      "fontes": ["Sol da manhã", "Sardinha", "Salmão", "Gema de ovo", "Cogumelos expostos ao sol"]
+    },
+    {
+      "id": "triptofano",
+      "nome": "Triptofano (serotonina)",
+      "papel": "A serotonina é o principal neurotransmissor que segura o reflexo de ejaculação. O triptofano é a matéria-prima para o corpo produzir serotonina.",
+      "meta": "Incluir fontes em todas as refeições",
+      "fontes": ["Ovos", "Peru e frango", "Aveia", "Banana", "Queijos", "Sementes de girassol"]
+    },
+    {
+      "id": "omega-3",
+      "nome": "Ômega 3",
+      "papel": "Anti-inflamatório, melhora circulação e saúde do cérebro, o que ajuda humor e ansiedade.",
+      "meta": "Peixe gordo 2 vezes por semana",
+      "fontes": ["Sardinha", "Salmão", "Chia", "Linhaça", "Nozes"]
+    },
+    {
+      "id": "arginina",
+      "nome": "L-arginina e nitratos",
+      "papel": "Ajudam o corpo a produzir óxido nítrico, que dilata os vasos e melhora o fluxo de sangue. Ereção firme dá mais segurança e reduz a pressa.",
+      "meta": "Incluir diariamente",
+      "fontes": ["Beterraba", "Melancia", "Rúcula", "Espinafre", "Amendoim", "Romã"]
+    },
+    {
+      "id": "complexo-b",
+      "nome": "Vitaminas do complexo B",
+      "papel": "Essenciais para o sistema nervoso e a produção de energia. B6 ajuda na produção de serotonina.",
+      "meta": "Dieta variada já cobre",
+      "fontes": ["Ovos", "Carnes", "Banana", "Grão-de-bico", "Batata", "Folhas verdes"]
+    }
+  ],
+  "alimentos": [
+    { "id": "banana", "nome": "Banana", "nutrientes": ["magnesio", "triptofano", "complexo-b"], "porque": "Potássio, magnésio e B6. Prática para antes do treino.", "imagem": "/images/alimentos/banana.webp" },
+    { "id": "abacate", "nome": "Abacate", "nutrientes": ["magnesio", "complexo-b"], "porque": "Gorduras boas, magnésio e vitamina E, que protegem os vasos.", "imagem": "/images/alimentos/abacate.webp" },
+    { "id": "ovo", "nome": "Ovos", "nutrientes": ["triptofano", "vitamina-d", "complexo-b"], "porque": "Proteína completa, colina, vitamina D e triptofano.", "imagem": "/images/alimentos/ovos.webp" },
+    { "id": "semente-abobora", "nome": "Semente de abóbora", "nutrientes": ["zinco", "magnesio"], "porque": "Uma das melhores fontes vegetais de zinco e magnésio. Um punhado por dia.", "imagem": "/images/alimentos/semente-abobora.webp" },
+    { "id": "sardinha", "nome": "Sardinha", "nutrientes": ["omega-3", "vitamina-d"], "porque": "Barata, rica em ômega 3 e vitamina D.", "imagem": "/images/alimentos/sardinha.webp" },
+    { "id": "salmao", "nome": "Salmão", "nutrientes": ["omega-3", "vitamina-d"], "porque": "Ômega 3 e proteína de alta qualidade.", "imagem": "/images/alimentos/salmao.webp" },
+    { "id": "beterraba", "nome": "Beterraba", "nutrientes": ["arginina"], "porque": "Nitratos naturais que melhoram o fluxo sanguíneo.", "imagem": "/images/alimentos/beterraba.webp" },
+    { "id": "melancia", "nome": "Melancia", "nutrientes": ["arginina"], "porque": "Rica em citrulina, que o corpo transforma em arginina.", "imagem": "/images/alimentos/melancia.webp" },
+    { "id": "espinafre", "nome": "Espinafre e folhas escuras", "nutrientes": ["magnesio", "arginina"], "porque": "Magnésio, folato e nitratos.", "imagem": "/images/alimentos/espinafre.webp" },
+    { "id": "chocolate", "nome": "Chocolate 70% cacau", "nutrientes": ["magnesio"], "porque": "Flavonoides que melhoram a circulação. 1 a 2 quadradinhos.", "imagem": "/images/alimentos/chocolate.webp" },
+    { "id": "aveia", "nome": "Aveia", "nutrientes": ["triptofano", "magnesio", "complexo-b"], "porque": "Energia estável, fibras e triptofano.", "imagem": "/images/alimentos/aveia.webp" },
+    { "id": "castanhas", "nome": "Castanhas e nozes", "nutrientes": ["zinco", "magnesio", "omega-3"], "porque": "Castanha-do-pará tem selênio, nozes têm ômega 3. Um punhado por dia.", "imagem": "/images/alimentos/castanhas.webp" },
+    { "id": "carne-magra", "nome": "Carne vermelha magra", "nutrientes": ["zinco", "complexo-b"], "porque": "Zinco, ferro e B12. De 2 a 3 vezes por semana.", "imagem": "/images/alimentos/carne.webp" },
+    { "id": "frango", "nome": "Frango", "nutrientes": ["triptofano", "zinco", "complexo-b"], "porque": "Proteína magra e triptofano.", "imagem": "/images/alimentos/frango.webp" },
+    { "id": "feijao", "nome": "Feijão e grão-de-bico", "nutrientes": ["zinco", "magnesio", "complexo-b"], "porque": "Fibras, zinco e magnésio de forma barata.", "imagem": "/images/alimentos/feijao.webp" },
+    { "id": "alho", "nome": "Alho", "nutrientes": ["arginina"], "porque": "Ajuda a circulação e a pressão arterial.", "imagem": "/images/alimentos/alho.webp" },
+    { "id": "gengibre", "nome": "Gengibre", "nutrientes": ["arginina"], "porque": "Anti-inflamatório e estimula a circulação.", "imagem": "/images/alimentos/gengibre.webp" },
+    { "id": "roma", "nome": "Romã", "nutrientes": ["arginina"], "porque": "Antioxidantes que protegem os vasos sanguíneos.", "imagem": "/images/alimentos/roma.webp" }
+  ],
+  "evitar": [
+    { "nome": "Álcool em excesso", "porque": "Um pouco pode desinibir, mas em excesso piora a ereção e o controle, e atrapalha o sono." },
+    { "nome": "Excesso de cafeína", "porque": "Café demais aumenta ansiedade e agitação. Evite depois das 16h e antes do encontro." },
+    { "nome": "Ultraprocessados e frituras", "porque": "Pioram a circulação e a inflamação, e roubam energia." },
+    { "nome": "Açúcar e refrigerante", "porque": "Picos de glicose, ganho de peso e queda de testosterona a longo prazo." },
+    { "nome": "Energéticos", "porque": "Muita cafeína e açúcar juntos aceleram o coração e a ansiedade." },
+    { "nome": "Cigarro e vape", "porque": "A nicotina contrai os vasos sanguíneos e está ligada a ejaculação precoce e disfunção erétil." }
+  ],
+  "cardapio": [
+    {
+      "dia": 1,
+      "refeicoes": [
+        { "tipo": "Café da manhã", "prato": "Omelete de 2 ovos com espinafre + 1 banana" },
+        { "tipo": "Lanche", "prato": "Punhado de semente de abóbora" },
+        { "tipo": "Almoço", "prato": "Arroz integral, feijão, frango grelhado e salada de rúcula com beterraba" },
+        { "tipo": "Lanche", "prato": "Iogurte natural com aveia e mel" },
+        { "tipo": "Jantar", "prato": "Sardinha assada com batata-doce e legumes" }
+      ]
+    },
+    {
+      "dia": 2,
+      "refeicoes": [
+        { "tipo": "Café da manhã", "prato": "Mingau de aveia com banana e canela" },
+        { "tipo": "Lanche", "prato": "2 castanhas-do-pará + 1 fruta" },
+        { "tipo": "Almoço", "prato": "Carne magra moída com abobrinha, arroz e lentilha" },
+        { "tipo": "Lanche", "prato": "Suco de melancia com gengibre" },
+        { "tipo": "Jantar", "prato": "Sopa de grão-de-bico com espinafre" }
+      ]
+    },
+    {
+      "dia": 3,
+      "refeicoes": [
+        { "tipo": "Café da manhã", "prato": "Pão integral com ovo mexido e abacate" },
+        { "tipo": "Lanche", "prato": "Romã ou uma laranja" },
+        { "tipo": "Almoço", "prato": "Salmão (ou sardinha) com quinoa e brócolis" },
+        { "tipo": "Lanche", "prato": "Vitamina de banana com aveia e cacau" },
+        { "tipo": "Jantar", "prato": "Frango desfiado com legumes refogados no alho" }
+      ]
+    },
+    {
+      "dia": 4,
+      "refeicoes": [
+        { "tipo": "Café da manhã", "prato": "Tapioca com ovo e queijo branco" },
+        { "tipo": "Lanche", "prato": "Punhado de nozes" },
+        { "tipo": "Almoço", "prato": "Arroz, feijão, bife acebolado magro e salada de folhas" },
+        { "tipo": "Lanche", "prato": "Suco de beterraba com laranja e gengibre" },
+        { "tipo": "Jantar", "prato": "Omelete de forno com legumes" }
+      ]
+    },
+    {
+      "dia": 5,
+      "refeicoes": [
+        { "tipo": "Café da manhã", "prato": "Iogurte com granola sem açúcar e banana" },
+        { "tipo": "Lanche", "prato": "1 quadradinho de chocolate 70% + castanhas" },
+        { "tipo": "Almoço", "prato": "Peixe grelhado, purê de abóbora e salada de espinafre" },
+        { "tipo": "Lanche", "prato": "Melancia" },
+        { "tipo": "Jantar", "prato": "Wrap integral de frango com abacate" }
+      ]
+    },
+    {
+      "dia": 6,
+      "refeicoes": [
+        { "tipo": "Café da manhã", "prato": "Panqueca de banana com aveia e ovo" },
+        { "tipo": "Lanche", "prato": "Semente de abóbora torrada" },
+        { "tipo": "Almoço", "prato": "Feijoada leve (sem embutidos) com couve e laranja" },
+        { "tipo": "Lanche", "prato": "Vitamina de abacate com cacau" },
+        { "tipo": "Jantar", "prato": "Salada morna de grão-de-bico, ovo cozido e folhas" }
+      ]
+    },
+    {
+      "dia": 7,
+      "refeicoes": [
+        { "tipo": "Café da manhã", "prato": "Ovos cozidos, pão integral e mamão" },
+        { "tipo": "Lanche", "prato": "Romã ou frutas vermelhas" },
+        { "tipo": "Almoço", "prato": "Frango assado com batata-doce, beterraba e cenoura" },
+        { "tipo": "Lanche", "prato": "Iogurte com chia" },
+        { "tipo": "Jantar", "prato": "Sardinha com salada de folhas e azeite" }
+      ]
+    }
+  ],
+  "receitas": [
+    {
+      "id": "suco-circulacao",
+      "nome": "Suco da circulação",
+      "tempo": "5 min",
+      "imagem": "/images/receitas/suco-circulacao.webp",
+      "ingredientes": ["1 beterraba pequena crua", "1 laranja", "1 fatia grossa de melancia", "1 cm de gengibre", "200 ml de água gelada"],
+      "preparo": ["Descasque a beterraba e a laranja.", "Bata tudo no liquidificador.", "Beba sem coar para manter as fibras."],
+      "beneficio": "Nitratos da beterraba e citrulina da melancia ajudam o fluxo sanguíneo."
+    },
+    {
+      "id": "vitamina-calma",
+      "nome": "Vitamina calmante",
+      "tempo": "5 min",
+      "imagem": "/images/receitas/vitamina-calma.webp",
+      "ingredientes": ["1 banana", "2 colheres de aveia", "1 colher de cacau em pó", "1 colher de pasta de amendoim", "250 ml de leite ou bebida vegetal"],
+      "preparo": ["Bata tudo no liquidificador até ficar cremoso.", "Ótima à noite: triptofano e magnésio ajudam o sono."],
+      "beneficio": "Triptofano, magnésio e energia estável."
+    },
+    {
+      "id": "mix-sementes",
+      "nome": "Mix de sementes do zinco",
+      "tempo": "10 min",
+      "imagem": "/images/receitas/mix-sementes.webp",
+      "ingredientes": ["1 xícara de semente de abóbora", "1/2 xícara de castanha de caju", "1/2 xícara de nozes", "1 pitada de sal e páprica"],
+      "preparo": ["Toste as sementes e castanhas em frigideira seca por 5 minutos.", "Tempere com sal e páprica.", "Guarde em pote fechado e coma um punhado por dia."],
+      "beneficio": "Zinco, magnésio e ômega 3 num lanche prático."
+    },
+    {
+      "id": "sardinha-forno",
+      "nome": "Sardinha assada com limão e ervas",
+      "tempo": "30 min",
+      "imagem": "/images/receitas/sardinha-forno.webp",
+      "ingredientes": ["6 sardinhas limpas", "2 limões", "3 dentes de alho", "Salsinha, sal e azeite", "Batata-doce em rodelas"],
+      "preparo": ["Tempere as sardinhas com alho, limão, sal e salsinha.", "Arrume numa assadeira com a batata-doce e regue com azeite.", "Asse a 200 °C por 25 minutos."],
+      "beneficio": "Ômega 3 e vitamina D por um preço baixo."
+    },
+    {
+      "id": "omelete-verde",
+      "nome": "Omelete verde",
+      "tempo": "10 min",
+      "imagem": "/images/receitas/omelete-verde.webp",
+      "ingredientes": ["3 ovos", "1 xícara de espinafre", "1/2 tomate", "Queijo branco a gosto", "Sal e pimenta"],
+      "preparo": ["Bata os ovos com sal e pimenta.", "Refogue o espinafre rapidamente.", "Junte os ovos, o tomate e o queijo e cozinhe em fogo baixo com tampa."],
+      "beneficio": "Proteína, triptofano e magnésio no café da manhã."
+    }
+  ],
+  "suplementos": {
+    "aviso": "Converse com um médico antes de usar qualquer suplemento. Faça exames de sangue para saber se você tem deficiência.",
+    "itens": [
+      { "nome": "Vitamina D", "nota": "Só se o exame mostrar nível baixo." },
+      { "nome": "Magnésio (glicinato ou citrato)", "nota": "Pode ajudar o sono e o relaxamento." },
+      { "nome": "Zinco", "nota": "Útil se a alimentação for pobre em carnes e sementes. Excesso faz mal." },
+      { "nome": "Ômega 3", "nota": "Para quem não come peixe." }
+    ]
+  }
+}

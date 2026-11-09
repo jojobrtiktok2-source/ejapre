@@ -1,0 +1,646 @@
+{
+  "ferramenta": "image_gen integrada",
+  "qualidade_webp": 85,
+  "referencia": "PROMPTS-IMAGENS.md",
+  "marca": {
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-aced97b6-f63c-45ef-bc44-74d4751f2abf.png",
+    "arquivos": [
+      {
+        "path": "images/marca/logo.webp",
+        "size": [
+          512,
+          512
+        ],
+        "prompt": "App logo symbol: an abstract geometric shield formed by two curved strokes meeting at the top, suggesting control and balance, with a small circle in the center like a timer dial. Teal-to-sky-blue gradient on dark navy rounded square. Flat vector, crisp edges, no text."
+      },
+      {
+        "path": "images/marca/icone-192.png",
+        "size": [
+          192,
+          192
+        ],
+        "prompt": "Same logo as above, centered, filling 70% of a rounded square, dark navy background. Flat vector, no text."
+      },
+      {
+        "path": "images/marca/icone-512.png",
+        "size": [
+          512,
+          512
+        ],
+        "prompt": "Same as icone-192, high resolution."
+      }
+    ]
+  },
+  "imagens": [
+    {
+      "path": "images/onboarding/1-boas-vindas.webp",
+      "size": [
+        1080,
+        1080
+      ],
+      "prompt": "A confident man in his 30s seen from behind, standing on a calm mountain top at sunrise, arms relaxed, breathing deeply, teal light on the horizon. Sense of control and calm.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-9191f9a5-26ce-4bd6-bd73-d050788e1331.png",
+      "original": "prompts-imagens\\originais\\onboarding\\1-boas-vindas.png"
+    },
+    {
+      "path": "images/onboarding/2-ciencia.webp",
+      "size": [
+        1080,
+        1080
+      ],
+      "prompt": "Abstract 3D illustration of a glowing teal pulse line and a stopwatch dial merging with a stylized human silhouette, scientific and clean, floating particles.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-bf8febcd-6533-414c-a7df-5d1897ecb93e.png",
+      "original": "prompts-imagens\\originais\\onboarding\\2-ciencia.png"
+    },
+    {
+      "path": "images/onboarding/3-privacidade.webp",
+      "size": [
+        1080,
+        1080
+      ],
+      "prompt": "A smartphone on a dark desk with a glowing teal padlock hologram above the screen, soft bokeh, privacy and discretion.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-d25f076f-c018-44bf-ba6c-617cf69d0433.png",
+      "original": "prompts-imagens\\originais\\onboarding\\3-privacidade.png"
+    },
+    {
+      "path": "images/programa/fase-1.webp",
+      "size": [
+        1600,
+        900
+      ],
+      "prompt": "Week 1 \"Awareness\": a man meditating seated on a yoga mat in a minimalist dark room, a soft teal glow around the lower abdomen and pelvis area (abstract energy, fully clothed in athletic wear).",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-5ae11ef6-9950-4300-a3e5-9e21960c198d.png",
+      "original": "prompts-imagens\\originais\\programa\\fase-1.png"
+    },
+    {
+      "path": "images/programa/fase-2.webp",
+      "size": [
+        1600,
+        900
+      ],
+      "prompt": "Week 2 \"Strength\": man doing a glute bridge exercise on a mat, athletic clothing, dramatic teal rim light, gym studio at night.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-8c46c238-9a12-478c-8f8a-f413f428445c.png",
+      "original": "prompts-imagens\\originais\\programa\\fase-2.png"
+    },
+    {
+      "path": "images/programa/fase-3.webp",
+      "size": [
+        1600,
+        900
+      ],
+      "prompt": "Week 3 \"Control\": close-up of a hand holding a minimalist analog stopwatch, needle paused, teal light trails, sense of precision.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-f8a18a89-314b-46bc-b2ef-21ab25bab604.png",
+      "original": "prompts-imagens\\originais\\programa\\fase-3.png"
+    },
+    {
+      "path": "images/programa/fase-4.webp",
+      "size": [
+        1600,
+        900
+      ],
+      "prompt": "Week 4 \"Mastery\": a happy couple fully clothed laughing together on a sofa in a cozy dark apartment, warm lamp light mixed with teal accents, intimacy and complicity, non-sexual.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-61902a62-50f8-4146-a253-76690b23016e.png",
+      "original": "prompts-imagens\\originais\\programa\\fase-4.png"
+    },
+    {
+      "path": "images/categorias/assoalho.webp",
+      "size": [
+        800,
+        600
+      ],
+      "prompt": "Stylized anatomical illustration of the male pelvic floor muscles as a glowing teal hammock-shaped muscle group inside a translucent pelvis bone, side view, medical-infographic style, no genitals shown.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-88db0a2f-8cc2-4a15-ad14-7844f66ab5b5.png",
+      "original": "prompts-imagens\\originais\\categorias\\assoalho.png"
+    },
+    {
+      "path": "images/categorias/respiracao.webp",
+      "size": [
+        800,
+        600
+      ],
+      "prompt": "Abstract illustration of lungs made of soft teal smoke expanding, with concentric breathing circles.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-7058d76e-2987-410d-b541-4d8b88500142.png",
+      "original": "prompts-imagens\\originais\\categorias\\respiracao.png"
+    },
+    {
+      "path": "images/categorias/tecnicas.webp",
+      "size": [
+        800,
+        600
+      ],
+      "prompt": "A glowing vertical gauge from 0 to 10 with the needle in the middle green zone, abstract, minimal, sense of control.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-75d7921d-ab7c-4211-b7c9-ab2e8d34d157.png",
+      "original": "prompts-imagens\\originais\\categorias\\tecnicas.png"
+    },
+    {
+      "path": "images/categorias/corpo.webp",
+      "size": [
+        800,
+        600
+      ],
+      "prompt": "Athletic man doing a bodyweight squat in a dark studio, teal rim light, motion energy.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-2c8cd833-a121-4326-9365-39028c4f4bdf.png",
+      "original": "prompts-imagens\\originais\\categorias\\corpo.png"
+    },
+    {
+      "path": "images/categorias/alongamento.webp",
+      "size": [
+        800,
+        600
+      ],
+      "prompt": "Man in child's pose yoga stretch on a mat, calm dark room with soft teal light.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-1487265b-a2ed-4982-ad7e-7c898d86d5c1.png",
+      "original": "prompts-imagens\\originais\\categorias\\alongamento.png"
+    },
+    {
+      "path": "images/exercicios/kegel-basico.webp",
+      "size": [
+        1600,
+        1000
+      ],
+      "prompt": "Medical infographic, side cross-section of a stylized male pelvis (bones translucent, no genitals detail), the pelvic floor muscle highlighted in teal with small upward arrows showing contraction (\"lift and squeeze\"), next to a small icon of a person lying on their back with knees bent.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-2b621fce-4f96-4623-81f6-39df0ee06c07.png",
+      "original": "prompts-imagens\\originais\\exercicios\\kegel-basico.png"
+    },
+    {
+      "path": "images/exercicios/kegel-sustentado.webp",
+      "size": [
+        1600,
+        1000
+      ],
+      "prompt": "Same anatomical style, pelvic floor highlighted teal and held lifted, with a circular timer ring around it at 10 seconds.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-db99627c-b732-4b5d-9875-1d48209dd656.png",
+      "original": "prompts-imagens\\originais\\exercicios\\kegel-sustentado.png"
+    },
+    {
+      "path": "images/exercicios/kegel-rapido.webp",
+      "size": [
+        1600,
+        1000
+      ],
+      "prompt": "Same anatomical style, pelvic floor with rapid pulse lines and lightning-like teal flicks indicating quick contractions.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-64fcd329-5d29-4228-90c7-b5bdd286364c.png",
+      "original": "prompts-imagens\\originais\\exercicios\\kegel-rapido.png"
+    },
+    {
+      "path": "images/exercicios/kegel-elevador.webp",
+      "size": [
+        1600,
+        1000
+      ],
+      "prompt": "Same anatomical style, pelvic floor shown at three stacked levels like floors of an elevator (1, 2, 3 represented by intensifying teal bars, no numbers).",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-b76cce37-d944-41ba-bd97-90c6262e7495.png",
+      "original": "prompts-imagens\\originais\\exercicios\\kegel-elevador.png"
+    },
+    {
+      "path": "images/exercicios/kegel-reverso.webp",
+      "size": [
+        1600,
+        1000
+      ],
+      "prompt": "Same anatomical style, pelvic floor highlighted in soft sky blue with downward gentle arrows showing relaxation and lengthening, person icon breathing into the belly.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-3c03325f-f89e-44c0-a618-33ae3499b882.png",
+      "original": "prompts-imagens\\originais\\exercicios\\kegel-reverso.png"
+    },
+    {
+      "path": "images/exercicios/respiracao-diafragmatica.webp",
+      "size": [
+        1600,
+        1000
+      ],
+      "prompt": "Man lying on his back on a mat, one hand on chest and one on belly, belly rising, soft teal glow around the diaphragm, fully clothed.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-321089fc-f5b0-4706-89e4-0797513f3930.png",
+      "original": "prompts-imagens\\originais\\exercicios\\respiracao-diafragmatica.png"
+    },
+    {
+      "path": "images/exercicios/respiracao-478.webp",
+      "size": [
+        1600,
+        1000
+      ],
+      "prompt": "Three glowing teal circles of increasing size connected in sequence, representing 4, 7 and 8 second phases (no numbers), calm abstract.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-3f948935-0d79-4a91-b0aa-24eacd28c4f9.png",
+      "original": "prompts-imagens\\originais\\exercicios\\respiracao-478.png"
+    },
+    {
+      "path": "images/exercicios/respiracao-quadrada.webp",
+      "size": [
+        1600,
+        1000
+      ],
+      "prompt": "A glowing teal square path with a light orb traveling along its edges, representing box breathing, minimal abstract.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-43e7e2e8-9678-4fb4-af50-40c11efd5eb8.png",
+      "original": "prompts-imagens\\originais\\exercicios\\respiracao-quadrada.png"
+    },
+    {
+      "path": "images/exercicios/escala-excitacao.webp",
+      "size": [
+        1600,
+        1000
+      ],
+      "prompt": "A vertical gradient bar from calm blue at the bottom through teal and yellow to red at the top, with a highlighted comfortable zone in the middle, abstract infographic, no numbers.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-f0686e90-44b1-4a38-af2c-59ee8348aa19.png",
+      "original": "prompts-imagens\\originais\\exercicios\\escala-excitacao.png"
+    },
+    {
+      "path": "images/exercicios/para-e-recomeca.webp",
+      "size": [
+        1600,
+        1000
+      ],
+      "prompt": "Abstract wave graph rising toward a red line and dropping back down three times before the final peak, teal line on dark background, infographic style.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-94a177c1-9e99-4e48-aaab-4278edf0bcf2.png",
+      "original": "prompts-imagens\\originais\\exercicios\\para-e-recomeca.png"
+    },
+    {
+      "path": "images/exercicios/aperto.webp",
+      "size": [
+        1600,
+        1000
+      ],
+      "prompt": "Abstract infographic: a stylized hand making a gentle pinch gesture next to a wave graph that drops sharply after the pinch, teal on dark navy, no anatomy shown.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-d3330e10-4706-4d5d-be83-35dff7c95ca4.png",
+      "original": "prompts-imagens\\originais\\exercicios\\aperto.png"
+    },
+    {
+      "path": "images/exercicios/foco-sensorial.webp",
+      "size": [
+        1600,
+        1000
+      ],
+      "prompt": "Close-up of two hands of a couple gently touching fingertips, warm and teal light, intimacy and calm, non-sexual.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-8351c2f4-ba76-408b-96d5-e801d3c5ad2c.png",
+      "original": "prompts-imagens\\originais\\exercicios\\foco-sensorial.png"
+    },
+    {
+      "path": "images/alimentos/banana.webp",
+      "size": [
+        1000,
+        1000
+      ],
+      "prompt": "A bunch of ripe bananas and one peeled banana.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-58f8a630-702b-4c22-b115-290ee201cc53.png",
+      "original": "prompts-imagens\\originais\\alimentos\\banana.png"
+    },
+    {
+      "path": "images/alimentos/abacate.webp",
+      "size": [
+        1000,
+        1000
+      ],
+      "prompt": "Two avocado halves, one with the pit, on stone.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-1737b6b4-6c86-40c9-9e77-099067110bdb.png",
+      "original": "prompts-imagens\\originais\\alimentos\\abacate.png"
+    },
+    {
+      "path": "images/alimentos/ovos.webp",
+      "size": [
+        1000,
+        1000
+      ],
+      "prompt": "Brown eggs in a ceramic bowl, one cracked with a bright yellow yolk.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-91482139-158a-415d-9427-616aacebeac1.png",
+      "original": "prompts-imagens\\originais\\alimentos\\ovos.png"
+    },
+    {
+      "path": "images/alimentos/semente-abobora.webp",
+      "size": [
+        1000,
+        1000
+      ],
+      "prompt": "Small bowl of green pumpkin seeds with some spilled around.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-1519582a-2938-4f93-b82f-f6992952343e.png",
+      "original": "prompts-imagens\\originais\\alimentos\\semente-abobora.png"
+    },
+    {
+      "path": "images/alimentos/sardinha.webp",
+      "size": [
+        1000,
+        1000
+      ],
+      "prompt": "Grilled sardines with lemon wedges and parsley.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-10f4d18a-70ff-4363-ac12-5555940e5050.png",
+      "original": "prompts-imagens\\originais\\alimentos\\sardinha.png"
+    },
+    {
+      "path": "images/alimentos/salmao.webp",
+      "size": [
+        1000,
+        1000
+      ],
+      "prompt": "Raw salmon fillet with herbs and lemon slices.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-0b17e918-84a7-4db1-93af-0427eb594b4b.png",
+      "original": "prompts-imagens\\originais\\alimentos\\salmao.png"
+    },
+    {
+      "path": "images/alimentos/beterraba.webp",
+      "size": [
+        1000,
+        1000
+      ],
+      "prompt": "Fresh beets with leaves, one sliced showing the deep purple inside.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-de2e2faf-4983-49bd-8a1f-650a8aca0533.png",
+      "original": "prompts-imagens\\originais\\alimentos\\beterraba.png"
+    },
+    {
+      "path": "images/alimentos/melancia.webp",
+      "size": [
+        1000,
+        1000
+      ],
+      "prompt": "Watermelon triangles, juicy red with seeds.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-f616cd1a-f576-4042-b32d-4971a1013cc6.png",
+      "original": "prompts-imagens\\originais\\alimentos\\melancia.png"
+    },
+    {
+      "path": "images/alimentos/espinafre.webp",
+      "size": [
+        1000,
+        1000
+      ],
+      "prompt": "Fresh spinach leaves and kale in a wooden bowl.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-9b7f2a28-4e07-41b2-83c7-e6703e231006.png",
+      "original": "prompts-imagens\\originais\\alimentos\\espinafre.png"
+    },
+    {
+      "path": "images/alimentos/chocolate.webp",
+      "size": [
+        1000,
+        1000
+      ],
+      "prompt": "Pieces of dark chocolate 70% with cocoa beans.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-420f90a5-d4c0-480e-aede-eb5c59316044.png",
+      "original": "prompts-imagens\\originais\\alimentos\\chocolate.png"
+    },
+    {
+      "path": "images/alimentos/aveia.webp",
+      "size": [
+        1000,
+        1000
+      ],
+      "prompt": "Bowl of rolled oats with a wooden spoon.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-76f8d587-272f-4625-8e81-f77df677bfa1.png",
+      "original": "prompts-imagens\\originais\\alimentos\\aveia.png"
+    },
+    {
+      "path": "images/alimentos/castanhas.webp",
+      "size": [
+        1000,
+        1000
+      ],
+      "prompt": "Mixed nuts: Brazil nuts, walnuts and cashews in a bowl.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-d7f70b46-137e-4ba4-994a-a2f1b2a13cdf.png",
+      "original": "prompts-imagens\\originais\\alimentos\\castanhas.png"
+    },
+    {
+      "path": "images/alimentos/carne.webp",
+      "size": [
+        1000,
+        1000
+      ],
+      "prompt": "Lean grilled beef steak sliced, with rosemary.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-9d909530-6e9a-49a7-8b7f-43ca7e34c485.png",
+      "original": "prompts-imagens\\originais\\alimentos\\carne.png"
+    },
+    {
+      "path": "images/alimentos/frango.webp",
+      "size": [
+        1000,
+        1000
+      ],
+      "prompt": "Grilled chicken breast sliced with herbs.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-ec014247-d194-4763-83cf-0af0a3c5ebff.png",
+      "original": "prompts-imagens\\originais\\alimentos\\frango.png"
+    },
+    {
+      "path": "images/alimentos/feijao.webp",
+      "size": [
+        1000,
+        1000
+      ],
+      "prompt": "Bowls of black beans and chickpeas side by side.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-b265dbdc-5abe-466e-b8d1-87365cd2ac3d.png",
+      "original": "prompts-imagens\\originais\\alimentos\\feijao.png"
+    },
+    {
+      "path": "images/alimentos/alho.webp",
+      "size": [
+        1000,
+        1000
+      ],
+      "prompt": "Garlic bulbs and peeled cloves.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-4b6aeeea-8c8e-4fb6-838c-250d69b38aca.png",
+      "original": "prompts-imagens\\originais\\alimentos\\alho.png"
+    },
+    {
+      "path": "images/alimentos/gengibre.webp",
+      "size": [
+        1000,
+        1000
+      ],
+      "prompt": "Fresh ginger root, one piece sliced.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-fca018ef-4e40-4add-8961-281c18be3b6d.png",
+      "original": "prompts-imagens\\originais\\alimentos\\gengibre.png"
+    },
+    {
+      "path": "images/alimentos/roma.webp",
+      "size": [
+        1000,
+        1000
+      ],
+      "prompt": "Pomegranate cut open showing ruby seeds.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-a08345c0-142e-4046-92da-8f8c6aa0155b.png",
+      "original": "prompts-imagens\\originais\\alimentos\\roma.png"
+    },
+    {
+      "path": "images/receitas/suco-circulacao.webp",
+      "size": [
+        1200,
+        900
+      ],
+      "prompt": "Tall glass of deep red beet, orange and watermelon juice with a ginger slice, beets and orange around.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-6404154d-4503-4fd7-a7cf-a401c65bd74c.png",
+      "original": "prompts-imagens\\originais\\receitas\\suco-circulacao.png"
+    },
+    {
+      "path": "images/receitas/vitamina-calma.webp",
+      "size": [
+        1200,
+        900
+      ],
+      "prompt": "Creamy chocolate-banana oat smoothie in a glass jar, banana slices and cocoa powder around.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-857fd87c-0f42-49e1-ad28-d85ea8f4631e.png",
+      "original": "prompts-imagens\\originais\\receitas\\vitamina-calma.png"
+    },
+    {
+      "path": "images/receitas/mix-sementes.webp",
+      "size": [
+        1200,
+        900
+      ],
+      "prompt": "Toasted pumpkin seeds, cashews and walnuts mix with paprika in a jar and a small bowl.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-f6d468c3-f283-48de-9742-43fd03ed9321.png",
+      "original": "prompts-imagens\\originais\\receitas\\mix-sementes.png"
+    },
+    {
+      "path": "images/receitas/sardinha-forno.webp",
+      "size": [
+        1200,
+        900
+      ],
+      "prompt": "Baking dish with roasted sardines, lemon slices, herbs and sweet potato rounds.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-6bc9672a-e963-4ad0-bd4e-4226801125b4.png",
+      "original": "prompts-imagens\\originais\\receitas\\sardinha-forno.png"
+    },
+    {
+      "path": "images/receitas/omelete-verde.webp",
+      "size": [
+        1200,
+        900
+      ],
+      "prompt": "Fluffy omelette with spinach, tomato and white cheese in a small cast iron pan.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-6a0c8f51-bfe0-4dac-ae63-346f73c00563.png",
+      "original": "prompts-imagens\\originais\\receitas\\omelete-verde.png"
+    },
+    {
+      "path": "images/artigos/o-que-e.webp",
+      "size": [
+        1600,
+        900
+      ],
+      "prompt": "A thoughtful man sitting on the edge of a bed at dawn, fully clothed, looking out the window, soft teal light, hopeful mood.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-7c749a14-5944-4440-8099-6bcc73a577c0.png",
+      "original": "prompts-imagens\\originais\\artigos\\o-que-e.png"
+    },
+    {
+      "path": "images/artigos/causas.webp",
+      "size": [
+        1600,
+        900
+      ],
+      "prompt": "Abstract brain with glowing teal neural connections linked by a light thread to a stylized pelvis icon, infographic.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-a9d90bc9-7bab-46f0-8e64-f23bf5fd68e0.png",
+      "original": "prompts-imagens\\originais\\artigos\\causas.png"
+    },
+    {
+      "path": "images/artigos/mitos.webp",
+      "size": [
+        1600,
+        900
+      ],
+      "prompt": "Two speech bubbles, one cracked and dim, one glowing teal, abstract 3D, myth vs fact concept, no text.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-6bf9073d-196e-4652-a315-24294c8be43f.png",
+      "original": "prompts-imagens\\originais\\artigos\\mitos.png"
+    },
+    {
+      "path": "images/artigos/na-hora.webp",
+      "size": [
+        1600,
+        900
+      ],
+      "prompt": "Dimly lit bedroom with an unmade bed and a soft teal lamp glow, empty room, calm and intimate atmosphere, nobody in the scene.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-cc9b1e6d-0c99-4618-91dd-e4dd9c5d683c.png",
+      "original": "prompts-imagens\\originais\\artigos\\na-hora.png"
+    },
+    {
+      "path": "images/artigos/conversa.webp",
+      "size": [
+        1600,
+        900
+      ],
+      "prompt": "A couple fully clothed having a calm, caring conversation at a kitchen table with coffee mugs, warm light.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-d03f352d-e2be-4a9d-998b-768fc939709a.png",
+      "original": "prompts-imagens\\originais\\artigos\\conversa.png"
+    },
+    {
+      "path": "images/artigos/quando-medico.webp",
+      "size": [
+        1600,
+        900
+      ],
+      "prompt": "Friendly male urologist doctor in a modern clinic, stethoscope, talking to a patient seen from behind, trustworthy.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-8dcc2331-db25-4618-8d95-588cf3a8f4cd.png",
+      "original": "prompts-imagens\\originais\\artigos\\quando-medico.png"
+    },
+    {
+      "path": "images/artigos/pornografia.webp",
+      "size": [
+        1600,
+        900
+      ],
+      "prompt": "A smartphone placed face down on a nightstand next to a book and a glass of water, calm night, digital detox concept.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-c0391cb3-f32f-43c7-ae27-ef8335a561e1.png",
+      "original": "prompts-imagens\\originais\\artigos\\pornografia.png"
+    },
+    {
+      "path": "images/artigos/masturbacao-treino.webp",
+      "size": [
+        1600,
+        900
+      ],
+      "prompt": "Abstract slow-motion hourglass with teal sand, sense of patience and slowing down.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-fb4eecfb-6865-44d0-b705-ba0d7d589dc5.png",
+      "original": "prompts-imagens\\originais\\artigos\\masturbacao-treino.png"
+    },
+    {
+      "path": "images/conquistas/primeiro-passo.webp",
+      "size": [
+        512,
+        512
+      ],
+      "prompt": "3D badge with a footprint icon.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-f2a61b53-447f-41f3-934d-e2a828a3205d.png",
+      "original": "prompts-imagens\\originais\\conquistas\\primeiro-passo.png"
+    },
+    {
+      "path": "images/conquistas/semana-1.webp",
+      "size": [
+        512,
+        512
+      ],
+      "prompt": "3D badge with an eye icon (awareness), bronze tone.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-c63659a5-c5be-4ad9-88ca-924d33ed62cc.png",
+      "original": "prompts-imagens\\originais\\conquistas\\semana-1.png"
+    },
+    {
+      "path": "images/conquistas/semana-2.webp",
+      "size": [
+        512,
+        512
+      ],
+      "prompt": "3D badge with a flexed muscle / dumbbell icon, silver tone.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-22134005-dc20-42ef-8137-2c6bbf57c67a.png",
+      "original": "prompts-imagens\\originais\\conquistas\\semana-2.png"
+    },
+    {
+      "path": "images/conquistas/semana-3.webp",
+      "size": [
+        512,
+        512
+      ],
+      "prompt": "3D badge with a stopwatch icon, gold tone.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-b6f6e38d-743f-4fa4-84b6-3de37ef9a8dc.png",
+      "original": "prompts-imagens\\originais\\conquistas\\semana-3.png"
+    },
+    {
+      "path": "images/conquistas/semana-4.webp",
+      "size": [
+        512,
+        512
+      ],
+      "prompt": "3D badge with a crown over a shield, platinum tone with teal glow.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-6262db04-0470-4963-974f-c1254ed16861.png",
+      "original": "prompts-imagens\\originais\\conquistas\\semana-4.png"
+    },
+    {
+      "path": "images/conquistas/sequencia-7.webp",
+      "size": [
+        512,
+        512
+      ],
+      "prompt": "3D badge with a flame icon and seven small dots around the rim.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-1e571ed6-deaf-4316-b4cf-50798d2a47de.png",
+      "original": "prompts-imagens\\originais\\conquistas\\sequencia-7.png"
+    }
+  ]
+}

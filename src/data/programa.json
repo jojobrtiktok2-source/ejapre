@@ -1,0 +1,428 @@
+{
+  "fases": [
+    {
+      "semana": 1,
+      "nome": "Consciência",
+      "descricao": "Encontrar o músculo certo, aprender a respirar e perceber a excitação.",
+      "imagem": "/images/programa/fase-1.webp"
+    },
+    {
+      "semana": 2,
+      "nome": "Força",
+      "descricao": "Fortalecer o assoalho pélvico e começar a técnica para e recomeça.",
+      "imagem": "/images/programa/fase-2.webp"
+    },
+    {
+      "semana": 3,
+      "nome": "Controle",
+      "descricao": "Contrações rápidas, elevador e técnica do aperto.",
+      "imagem": "/images/programa/fase-3.webp"
+    },
+    {
+      "semana": 4,
+      "nome": "Domínio",
+      "descricao": "Levar o controle para a relação, com a parceria.",
+      "imagem": "/images/programa/fase-4.webp"
+    }
+  ],
+  "dias": [
+    {
+      "dia": 1,
+      "semana": 1,
+      "titulo": "Encontre seu músculo",
+      "exercicios": [
+        "kegel-basico",
+        "respiracao-diafragmatica",
+        "ponte-gluteo"
+      ],
+      "dica": "Use o teste do xixi só uma vez para achar o músculo. Depois treine deitado.",
+      "artigo": "o-que-e"
+    },
+    {
+      "dia": 2,
+      "semana": 1,
+      "titulo": "O poder de soltar",
+      "exercicios": [
+        "kegel-basico",
+        "kegel-reverso",
+        "gato-vaca"
+      ],
+      "dica": "Relaxar é metade do controle. Muitos homens ansiosos vivem com o assoalho tenso.",
+      "artigo": "causas"
+    },
+    {
+      "dia": 3,
+      "semana": 1,
+      "titulo": "Corpo em movimento",
+      "exercicios": [
+        "kegel-basico",
+        "respiracao-diafragmatica",
+        "agachamento",
+        "prancha"
+      ],
+      "dica": "Exercício físico melhora circulação e humor. Seu corpo inteiro participa."
+    },
+    {
+      "dia": 4,
+      "semana": 1,
+      "titulo": "Conheça sua escala",
+      "exercicios": [
+        "kegel-basico",
+        "kegel-reverso",
+        "escala-excitacao"
+      ],
+      "dica": "Dê uma nota de 0 a 10 para a excitação. Quem percebe a subida consegue frear.",
+      "artigo": "masturbacao-treino"
+    },
+    {
+      "dia": 5,
+      "semana": 1,
+      "titulo": "Respire e caminhe",
+      "exercicios": [
+        "kegel-basico",
+        "respiracao-quadrada",
+        "caminhada"
+      ],
+      "dica": "Respiração lenta pela barriga ativa o modo calma do corpo."
+    },
+    {
+      "dia": 6,
+      "semana": 1,
+      "titulo": "Dia de soltar",
+      "exercicios": [
+        "kegel-basico",
+        "kegel-reverso",
+        "postura-crianca",
+        "alongamento-gluteo"
+      ],
+      "dica": "Alongar glúteos e quadril ajuda o assoalho pélvico a soltar.",
+      "artigo": "pornografia"
+    },
+    {
+      "dia": 7,
+      "semana": 1,
+      "titulo": "Revisão da semana",
+      "exercicios": [
+        "respiracao-diafragmatica",
+        "escala-excitacao"
+      ],
+      "dica": "Uma semana feita! Registre no diário como você está se sentindo."
+    },
+    {
+      "dia": 8,
+      "semana": 2,
+      "titulo": "Segure mais",
+      "exercicios": [
+        "kegel-sustentado",
+        "kegel-reverso",
+        "ponte-gluteo",
+        "prancha"
+      ],
+      "dica": "Comece com contrações de 10 segundos. Se escapar antes, diminua e vá subindo."
+    },
+    {
+      "dia": 9,
+      "semana": 2,
+      "titulo": "Primeiro para e recomeça",
+      "exercicios": [
+        "kegel-basico",
+        "respiracao-diafragmatica",
+        "para-e-recomeca"
+      ],
+      "dica": "Pare no 7, não no 9. Parar cedo é o segredo da técnica.",
+      "artigo": "na-hora"
+    },
+    {
+      "dia": 10,
+      "semana": 2,
+      "titulo": "Pernas fortes",
+      "exercicios": [
+        "kegel-sustentado",
+        "agachamento",
+        "afundo",
+        "dead-bug"
+      ],
+      "dica": "Pernas e glúteos fortes dão estabilidade à pelve."
+    },
+    {
+      "dia": 11,
+      "semana": 2,
+      "titulo": "Calma sob pressão",
+      "exercicios": [
+        "kegel-sustentado",
+        "kegel-reverso",
+        "respiracao-4-7-8"
+      ],
+      "dica": "A expiração longa desacelera o coração. Use antes de encontros."
+    },
+    {
+      "dia": 12,
+      "semana": 2,
+      "titulo": "Para e recomeça II",
+      "exercicios": [
+        "kegel-basico",
+        "para-e-recomeca",
+        "flexor-quadril"
+      ],
+      "dica": "Tente 3 pausas antes de terminar. Cada pausa é uma vitória.",
+      "artigo": "mitos"
+    },
+    {
+      "dia": 13,
+      "semana": 2,
+      "titulo": "Cardio e mobilidade",
+      "exercicios": [
+        "kegel-sustentado",
+        "caminhada",
+        "alongamento-gluteo"
+      ],
+      "dica": "Sedentarismo piora o controle. Mexa-se pelo menos 30 minutos."
+    },
+    {
+      "dia": 14,
+      "semana": 2,
+      "titulo": "Descanso ativo",
+      "exercicios": [
+        "kegel-reverso",
+        "respiracao-diafragmatica",
+        "agachamento-profundo"
+      ],
+      "dica": "Agachamento profundo + respiração = assoalho relaxado."
+    },
+    {
+      "dia": 15,
+      "semana": 3,
+      "titulo": "Velocidade",
+      "exercicios": [
+        "kegel-rapido",
+        "kegel-sustentado",
+        "ponte-unilateral",
+        "prancha-lateral"
+      ],
+      "dica": "Contrações rápidas são o freio de emergência quando a excitação dispara."
+    },
+    {
+      "dia": 16,
+      "semana": 3,
+      "titulo": "O elevador",
+      "exercicios": [
+        "kegel-elevador",
+        "respiracao-quadrada",
+        "aperto"
+      ],
+      "dica": "Dosar a força ensina controle fino, não só força bruta.",
+      "artigo": "quando-medico"
+    },
+    {
+      "dia": 17,
+      "semana": 3,
+      "titulo": "Freio de mão",
+      "exercicios": [
+        "kegel-rapido",
+        "kegel-reverso",
+        "pular-corda",
+        "abdominal-reverso"
+      ],
+      "dica": "O aperto funciona melhor no 7 ou 8. No 9,5 já é tarde."
+    },
+    {
+      "dia": 18,
+      "semana": 3,
+      "titulo": "Controle fino",
+      "exercicios": [
+        "kegel-elevador",
+        "para-e-recomeca",
+        "gato-vaca"
+      ],
+      "dica": "Combine para e recomeça com respiração: pausa + 3 respirações lentas."
+    },
+    {
+      "dia": 19,
+      "semana": 3,
+      "titulo": "Explosão",
+      "exercicios": [
+        "kegel-rapido",
+        "kegel-sustentado",
+        "escalador",
+        "superman"
+      ],
+      "dica": "Cardio intenso também treina sua mente a ficar calma sob esforço."
+    },
+    {
+      "dia": 20,
+      "semana": 3,
+      "titulo": "Aperto II",
+      "exercicios": [
+        "kegel-elevador",
+        "aperto",
+        "alongamento-gluteo-sentado"
+      ],
+      "dica": "Se a ereção diminuir com o aperto, tudo bem. Ela volta."
+    },
+    {
+      "dia": 21,
+      "semana": 3,
+      "titulo": "Recuperação",
+      "exercicios": [
+        "kegel-reverso",
+        "respiracao-diafragmatica",
+        "postura-crianca"
+      ],
+      "dica": "Descanse com consciência. Seus músculos crescem na recuperação."
+    },
+    {
+      "dia": 22,
+      "semana": 4,
+      "titulo": "Tudo junto",
+      "exercicios": [
+        "kegel-elevador",
+        "kegel-rapido",
+        "ponte-unilateral",
+        "coice-gluteo"
+      ],
+      "dica": "Agora é hora de levar o treino para a vida real."
+    },
+    {
+      "dia": 23,
+      "semana": 4,
+      "titulo": "Foco sensorial",
+      "exercicios": [
+        "kegel-sustentado",
+        "respiracao-diafragmatica",
+        "foco-sensorial"
+      ],
+      "dica": "Sem penetração hoje. O objetivo é tirar a pressão e sentir.",
+      "artigo": "conversa"
+    },
+    {
+      "dia": 24,
+      "semana": 4,
+      "titulo": "Treino completo",
+      "exercicios": [
+        "kegel-rapido",
+        "kegel-reverso",
+        "agachamento",
+        "prancha",
+        "pular-corda"
+      ],
+      "dica": "Treino completo: força, relaxamento e cardio."
+    },
+    {
+      "dia": 25,
+      "semana": 4,
+      "titulo": "Ritmo a dois",
+      "exercicios": [
+        "kegel-elevador",
+        "para-e-recomeca",
+        "flexor-quadril"
+      ],
+      "dica": "Pratique para e recomeça com a parceria. Combine um sinal para pausar."
+    },
+    {
+      "dia": 26,
+      "semana": 4,
+      "titulo": "Conexão",
+      "exercicios": [
+        "kegel-sustentado",
+        "respiracao-quadrada",
+        "foco-sensorial"
+      ],
+      "dica": "Conectar é mais importante que durar. A pressão é a inimiga."
+    },
+    {
+      "dia": 27,
+      "semana": 4,
+      "titulo": "Resistência",
+      "exercicios": [
+        "kegel-rapido",
+        "kegel-elevador",
+        "caminhada"
+      ],
+      "dica": "Constância vence intensidade. Você já treinou quase um mês!"
+    },
+    {
+      "dia": 28,
+      "semana": 4,
+      "titulo": "Dia de domínio",
+      "exercicios": [
+        "kegel-reverso",
+        "respiracao-4-7-8",
+        "aperto"
+      ],
+      "dica": "Você chegou ao fim do programa. Continue treinando 3 a 4 vezes por semana para manter."
+    },
+    {
+      "dia": 29,
+      "semana": 4,
+      "titulo": "Teste de controle",
+      "exercicios": [
+        "kegel-elevador",
+        "kegel-sustentado",
+        "escala-excitacao"
+      ],
+      "dica": "Faça a escala de excitação e cronometre quanto tempo fica entre 5 e 7. Compare com a semana 1."
+    },
+    {
+      "dia": 30,
+      "semana": 4,
+      "titulo": "Formatura",
+      "exercicios": [
+        "kegel-basico",
+        "kegel-rapido",
+        "kegel-reverso",
+        "respiracao-diafragmatica"
+      ],
+      "dica": "Refaça a autoavaliação no app e veja sua evolução. Parabéns pela disciplina!"
+    }
+  ],
+  "conquistas": [
+    {
+      "id": "primeiro-treino",
+      "nome": "Primeiro passo",
+      "descricao": "Completou o primeiro treino",
+      "imagem": "/images/conquistas/primeiro-passo.webp"
+    },
+    {
+      "id": "semana-1",
+      "nome": "Consciência",
+      "descricao": "Concluiu a semana 1",
+      "imagem": "/images/conquistas/semana-1.webp"
+    },
+    {
+      "id": "semana-2",
+      "nome": "Força",
+      "descricao": "Concluiu a semana 2",
+      "imagem": "/images/conquistas/semana-2.webp"
+    },
+    {
+      "id": "semana-3",
+      "nome": "Controle",
+      "descricao": "Concluiu a semana 3",
+      "imagem": "/images/conquistas/semana-3.webp"
+    },
+    {
+      "id": "semana-4",
+      "nome": "Domínio",
+      "descricao": "Concluiu o programa de 30 dias",
+      "imagem": "/images/conquistas/semana-4.webp"
+    },
+    {
+      "id": "sequencia-7",
+      "nome": "7 dias seguidos",
+      "descricao": "Treinou 7 dias sem falhar",
+      "imagem": "/images/conquistas/sequencia-7.webp"
+    },
+    {
+      "id": "habitos-100",
+      "nome": "Rotina de aço",
+      "descricao": "Marcou 100 hábitos",
+      "imagem": "/images/conquistas/habitos-100.webp"
+    },
+    {
+      "id": "diario-10",
+      "nome": "Autoconhecimento",
+      "descricao": "Fez 10 registros no diário",
+      "imagem": "/images/conquistas/diario-10.webp"
+    }
+  ]
+}

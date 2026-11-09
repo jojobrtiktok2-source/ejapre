@@ -1,0 +1,8 @@
+node_modules
+dist
+*.tsbuildinfo
+.env*
+!.env.example
+
+# originais PNG das imagens geradas (pesados; o app usa os .webp em public/images)
+prompts-imagens/originais/

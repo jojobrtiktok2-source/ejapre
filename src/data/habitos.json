@@ -1,0 +1,110 @@
+[
+  {
+    "id": "sono",
+    "nome": "Dormir 7 a 8 horas",
+    "icone": "moon",
+    "categoria": "Corpo",
+    "porque": "Sono ruim derruba a testosterona e aumenta a ansiedade. Uma semana dormindo 5 horas já reduz a testosterona de forma mensurável.",
+    "comoFazer": ["Mesmo horário para dormir e acordar, inclusive no fim de semana.", "Celular fora da cama 30 minutos antes.", "Quarto escuro e fresco."],
+    "imagem": "/images/habitos/sono.webp"
+  },
+  {
+    "id": "agua",
+    "nome": "Beber 2 litros de água",
+    "icone": "droplet",
+    "categoria": "Corpo",
+    "porque": "Desidratação reduz energia e circulação, e piora o desempenho físico.",
+    "comoFazer": ["Tenha sempre uma garrafa por perto.", "Um copo ao acordar e um antes de cada refeição."],
+    "imagem": "/images/habitos/agua.webp"
+  },
+  {
+    "id": "treino-pelvico",
+    "nome": "Treino do assoalho pélvico",
+    "icone": "target",
+    "categoria": "Treino",
+    "porque": "É o pilar do programa. Consistência diária é o que traz resultado em 6 a 12 semanas.",
+    "comoFazer": ["Faça a sessão do dia no app.", "Associe a um hábito fixo, como depois de escovar os dentes."],
+    "imagem": "/images/habitos/treino-pelvico.webp"
+  },
+  {
+    "id": "movimento",
+    "nome": "30 minutos de movimento",
+    "icone": "activity",
+    "categoria": "Treino",
+    "porque": "Atividade aeróbica melhora circulação, humor e controle. Sedentarismo está ligado a pior desempenho sexual.",
+    "comoFazer": ["Caminhada, corrida, bicicleta ou o treino de corpo do app.", "Pode dividir em 3 blocos de 10 minutos."],
+    "imagem": "/images/habitos/movimento.webp"
+  },
+  {
+    "id": "respiracao",
+    "nome": "5 minutos de respiração",
+    "icone": "wind",
+    "categoria": "Mente",
+    "porque": "Treinar a respiração no dia a dia faz com que ela funcione automaticamente na hora da relação.",
+    "comoFazer": ["Use o exercício de respiração diafragmática do app.", "Bom momento: ao acordar ou antes de dormir."],
+    "imagem": "/images/habitos/respiracao.webp"
+  },
+  {
+    "id": "sem-pornografia",
+    "nome": "Dia sem pornografia",
+    "icone": "eye-off",
+    "categoria": "Mente",
+    "porque": "A pornografia treina o cérebro para uma excitação muito rápida e intensa, com masturbação apressada. Isso reforça o padrão de ejaculação rápida e aumenta a ansiedade de comparação.",
+    "comoFazer": ["Bloqueadores de sites ajudam.", "Se sentir vontade, troque por uma caminhada ou um banho.", "Masturbação, quando acontecer, deve ser lenta e usando a escala de excitação."],
+    "imagem": "/images/habitos/sem-pornografia.webp"
+  },
+  {
+    "id": "sem-alcool",
+    "nome": "Sem álcool em excesso",
+    "icone": "wine-off",
+    "categoria": "Corpo",
+    "porque": "Álcool em excesso piora ereção, sono e controle.",
+    "comoFazer": ["No máximo 1 a 2 doses em ocasiões sociais.", "Alterne com água."],
+    "imagem": "/images/habitos/sem-alcool.webp"
+  },
+  {
+    "id": "sem-cigarro",
+    "nome": "Sem cigarro ou vape",
+    "icone": "cigarette-off",
+    "categoria": "Corpo",
+    "porque": "Nicotina contrai os vasos sanguíneos e está associada a ejaculação precoce.",
+    "comoFazer": ["Procure o SUS: há programa gratuito para parar de fumar.", "Troque o momento do cigarro por respiração 4-7-8."],
+    "imagem": "/images/habitos/sem-cigarro.webp"
+  },
+  {
+    "id": "alimentacao",
+    "nome": "Comer comida de verdade",
+    "icone": "salad",
+    "categoria": "Corpo",
+    "porque": "Alimentos naturais dão os nutrientes de que o corpo precisa para hormônios e circulação.",
+    "comoFazer": ["Siga o cardápio do app.", "Inclua um alimento da lista de aliados em cada refeição."],
+    "imagem": "/images/habitos/alimentacao.webp"
+  },
+  {
+    "id": "sol",
+    "nome": "15 minutos de sol",
+    "icone": "sun",
+    "categoria": "Corpo",
+    "porque": "O sol é a principal fonte de vitamina D, associada à saúde sexual.",
+    "comoFazer": ["Prefira o sol antes das 10h ou depois das 16h.", "Braços e pernas expostos, sem protetor nesses minutos."],
+    "imagem": "/images/habitos/sol.webp"
+  },
+  {
+    "id": "diario",
+    "nome": "Registrar no diário",
+    "icone": "notebook-pen",
+    "categoria": "Mente",
+    "porque": "Anotar o progresso mostra que você está evoluindo e reduz a ansiedade.",
+    "comoFazer": ["Use a aba Progresso para registrar treinos solo e relações.", "Anote como se sentiu, não só o tempo."],
+    "imagem": "/images/habitos/diario.webp"
+  },
+  {
+    "id": "conversa",
+    "nome": "Conversar com a parceria",
+    "icone": "message-circle-heart",
+    "categoria": "Relação",
+    "porque": "Esconder o problema aumenta a ansiedade. Falar abertamente costuma aliviar a pressão e transforma a parceria em aliada.",
+    "comoFazer": ["Escolha um momento calmo, fora do quarto.", "Diga que está treinando para melhorar e que gostaria do apoio.", "Veja o artigo 'Como conversar com a parceria'."],
+    "imagem": "/images/habitos/conversa.webp"
+  }
+]
