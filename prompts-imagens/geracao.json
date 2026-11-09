@@ -641,6 +641,167 @@
       "prompt": "3D badge with a flame icon and seven small dots around the rim.",
       "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-1e571ed6-deaf-4316-b4cf-50798d2a47de.png",
       "original": "prompts-imagens\\originais\\conquistas\\sequencia-7.png"
+    },
+    {
+      "path": "images/conquistas/habitos-100.webp",
+      "size": [
+        512,
+        512
+      ],
+      "prompt": "3D badge with a checkmark inside a hexagon, steel tone.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-f128faa6-8950-451d-869c-05e9d9e08965.png",
+      "original": "prompts-imagens\\originais\\conquistas\\habitos-100.png"
+    },
+    {
+      "path": "images/conquistas/diario-10.webp",
+      "size": [
+        512,
+        512
+      ],
+      "prompt": "3D badge with an open notebook and pen icon.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-6c58c9a0-e92a-4b2a-8301-68547f81fcdd.png",
+      "original": "prompts-imagens\\originais\\conquistas\\diario-10.png"
+    },
+    {
+      "path": "images/habitos/sono.webp",
+      "size": [
+        800,
+        800
+      ],
+      "prompt": "Dark bedroom, moonlight through the window, cozy bed, calm.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-f9f978f5-fac9-4457-9c2b-5c9e620db659.png",
+      "original": "prompts-imagens\\originais\\habitos\\sono.png"
+    },
+    {
+      "path": "images/habitos/agua.webp",
+      "size": [
+        800,
+        800
+      ],
+      "prompt": "Glass water bottle with condensation, teal light.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-b4c9fc16-ae9b-4c96-b899-f051bf2d86d5.png",
+      "original": "prompts-imagens\\originais\\habitos\\agua.png"
+    },
+    {
+      "path": "images/habitos/treino-pelvico.webp",
+      "size": [
+        800,
+        800
+      ],
+      "prompt": "Yoga mat with a small timer, minimal dark studio.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-85fd89d4-e1da-4a17-85be-e1be0b42c4ad.png",
+      "original": "prompts-imagens\\originais\\habitos\\treino-pelvico.png"
+    },
+    {
+      "path": "images/habitos/movimento.webp",
+      "size": [
+        800,
+        800
+      ],
+      "prompt": "Running shoes on an urban path at sunrise.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-5f506b42-2f0d-45df-8ed2-9d70e8568916.png",
+      "original": "prompts-imagens\\originais\\habitos\\movimento.png"
+    },
+    {
+      "path": "images/habitos/respiracao.webp",
+      "size": [
+        800,
+        800
+      ],
+      "prompt": "Man breathing deeply outdoors with eyes closed, mist.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-36e94fea-1b46-45e7-8e21-86b262870110.png",
+      "original": "prompts-imagens\\originais\\habitos\\respiracao.png"
+    },
+    {
+      "path": "images/habitos/sem-pornografia.webp",
+      "size": [
+        800,
+        800
+      ],
+      "prompt": "Phone screen turned off with a soft teal shield reflection.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-1fabdf03-8e67-43d7-a2c9-8cadee24f39d.png",
+      "original": "prompts-imagens\\originais\\habitos\\sem-pornografia.png"
+    },
+    {
+      "path": "images/habitos/sem-alcool.webp",
+      "size": [
+        800,
+        800
+      ],
+      "prompt": "Glass of sparkling water with lime instead of beer.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-0e515901-185e-486f-8f9a-1ad13d952951.png",
+      "original": "prompts-imagens\\originais\\habitos\\sem-alcool.png"
+    },
+    {
+      "path": "images/habitos/sem-cigarro.webp",
+      "size": [
+        800,
+        800
+      ],
+      "prompt": "Broken cigarette on a dark surface, fresh green leaf beside it.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-c35ed2ba-17d6-4098-a5f5-3aef1a6a3e64.png",
+      "original": "prompts-imagens\\originais\\habitos\\sem-cigarro.png"
+    },
+    {
+      "path": "images/habitos/alimentacao.webp",
+      "size": [
+        800,
+        800
+      ],
+      "prompt": "Colorful healthy plate with salmon, greens and grains.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-0a1b909a-e2ca-41cc-99ca-721a1186198e.png",
+      "original": "prompts-imagens\\originais\\habitos\\alimentacao.png"
+    },
+    {
+      "path": "images/habitos/sol.webp",
+      "size": [
+        800,
+        800
+      ],
+      "prompt": "Man in t-shirt enjoying morning sun on a balcony.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-d617b52c-59b4-45df-9093-d6a2569cdf86.png",
+      "original": "prompts-imagens\\originais\\habitos\\sol.png"
+    },
+    {
+      "path": "images/habitos/diario.webp",
+      "size": [
+        800,
+        800
+      ],
+      "prompt": "Open notebook with pen on a dark wooden desk.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-09ac3781-6397-4400-8bcf-70a1f477fdd6.png",
+      "original": "prompts-imagens\\originais\\habitos\\diario.png"
+    },
+    {
+      "path": "images/habitos/conversa.webp",
+      "size": [
+        800,
+        800
+      ],
+      "prompt": "Two coffee mugs on a table, warm afternoon light.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-e9de3865-a186-44bb-93a3-926036f020a2.png",
+      "original": "prompts-imagens\\originais\\habitos\\conversa.png"
+    },
+    {
+      "path": "images/coach/avatar.webp",
+      "size": [
+        512,
+        512
+      ],
+      "prompt": "Friendly and confident male fitness and wellness coach in his late 30s, short beard, warm smile, wearing a dark teal athletic t-shirt, head-and-shoulders portrait, centered for a circular crop, dark navy studio background with soft teal rim light, illustrated semi-realistic style, approachable and trustworthy.",
+      "source": "C:\\Users\\user\\.codex\\generated_images\\01a1c1a0-68af-7371-b522-9f044f6cacd2\\exec-548e5d10-5f40-412b-98d7-2f8b26e98bd2.png",
+      "original": "prompts-imagens\\originais\\coach\\avatar.png"
     }
+  ],
+  "validacao": {
+    "arquivos": 79,
+    "referencias_src": 77,
+    "tamanhos_corretos": true,
+    "presentes_em_dist": true,
+    "build": "npm run build: aprovado"
+  },
+  "estilos_referencia": [
+    "modern premium wellness app illustration, dark navy background (#0B1220), accent colors teal (#2DD4BF) and sky blue (#38BDF8), soft volumetric light, clean minimal composition, subtle grain, calm and confident mood, masculine but elegant, no text, no letters, no logos, no watermark. Tasteful and non-explicit: no nudity, no genitals, no sexual acts.",
+    "professional food photography, dark slate stone surface, moody soft side light, teal-tinted shadows, shallow depth of field, top-down or 45° angle, fresh and appetizing, no text, no hands, no logos."
   ]
 }
