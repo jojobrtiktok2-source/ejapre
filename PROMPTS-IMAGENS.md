@@ -163,11 +163,11 @@ Hoje a tela de hábitos usa ícones. Estas imagens estão nos dados (`src/data/h
 | `images/habitos/diario.webp` | Open notebook with pen on a dark wooden desk. |
 | `images/habitos/conversa.webp` | Two coffee mugs on a table, warm afternoon light. |
 
-## 11. Coach (chat)
+## 11. Especialista Domínio (chat)
 
 | Caminho | Tamanho | Prompt |
 |---|---|---|
-| `images/coach/avatar.webp` | 512×512 | Friendly and confident male fitness and wellness coach in his late 30s, short beard, warm smile, wearing a dark teal athletic t-shirt, head-and-shoulders portrait, centered for a circular crop, dark navy studio background with soft teal rim light, illustrated semi-realistic style, approachable and trustworthy. |
+| `images/coach/avatar.webp` | 512×512 | Professional male men's health specialist in his early 40s, neatly trimmed beard, calm confident smile, wearing a dark navy blazer over a light teal shirt (no lab coat, no stethoscope, no badges), head-and-shoulders portrait centered for a circular crop, modern softly blurred office background with dark navy tones and subtle teal light, semi-realistic illustrated style, trustworthy, discreet and serious. **Troque a imagem atual por esta.** |
 
 ---
 

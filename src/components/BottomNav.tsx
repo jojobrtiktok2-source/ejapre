@@ -4,7 +4,7 @@ import { Home, Dumbbell, Salad, ListChecks, LineChart, MessageCircle } from "luc
 const itens = [
   { to: "/", label: "Início", icon: Home },
   { to: "/treinar", label: "Treinar", icon: Dumbbell },
-  { to: "/coach", label: "Coach", icon: MessageCircle, destaque: true },
+  { to: "/coach", label: "Especialista", icon: MessageCircle, destaque: true },
   { to: "/nutricao", label: "Nutrição", icon: Salad },
   { to: "/habitos", label: "Hábitos", icon: ListChecks },
   { to: "/progresso", label: "Progresso", icon: LineChart },

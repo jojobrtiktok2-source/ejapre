@@ -1,4 +1,4 @@
-// POST /api/chat — Coach Domínio (Claude Haiku 5.5), resposta em streaming de texto.
+// POST /api/chat — Especialista Domínio (Claude Haiku 5.5), resposta em streaming de texto.
 import Anthropic from "@anthropic-ai/sdk";
 import { CONHECIMENTO } from "./_conhecimento";
 
@@ -79,7 +79,7 @@ export async function POST(req: Request) {
         try {
           client ??= new Anthropic();
         } catch {
-          enviar("O coach ainda não foi configurado: falta a chave ANTHROPIC_API_KEY no servidor.");
+          enviar("O Especialista ainda não foi configurado: falta a chave ANTHROPIC_API_KEY no servidor.");
           return;
         }
         const stream = client.messages.stream({
@@ -105,11 +105,11 @@ export async function POST(req: Request) {
         }
       } catch (err) {
         console.error("[chat]", err);
-        if (err instanceof Anthropic.AuthenticationError) enviar("O coach ainda não foi configurado (chave da API ausente ou inválida).");
-        else if (err instanceof Anthropic.RateLimitError) enviar("Muita gente falando com o coach agora. Tente de novo em instantes.");
+        if (err instanceof Anthropic.AuthenticationError) enviar("O Especialista ainda não foi configurado (chave da API ausente ou inválida).");
+        else if (err instanceof Anthropic.RateLimitError) enviar("Muitas consultas ao mesmo tempo agora. Tente de novo em instantes.");
         else if (err instanceof Anthropic.APIConnectionError) enviar("O servidor não conseguiu falar com a IA agora. Tente de novo em instantes.");
         else if (err instanceof Anthropic.APIError) enviar("Tive um problema para responder agora. Tente de novo em instantes.");
-        else if (err instanceof Anthropic.AnthropicError) enviar("O coach ainda não foi configurado: falta a chave ANTHROPIC_API_KEY no servidor.");
+        else if (err instanceof Anthropic.AnthropicError) enviar("O Especialista ainda não foi configurado: falta a chave ANTHROPIC_API_KEY no servidor.");
         else enviar("Não consegui me conectar. Verifique sua internet e tente de novo.");
       } finally {
         controller.close();

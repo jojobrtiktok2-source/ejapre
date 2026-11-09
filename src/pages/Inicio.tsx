@@ -73,8 +73,8 @@ export default function Inicio() {
           <MessageCircle size={22} />
         </div>
         <div className="min-w-0 flex-1">
-          <p className="font-semibold">Fale com o Coach</p>
-          <p className="truncate text-xs text-muted">Tire dúvidas na hora, sem vergonha e sem julgamento</p>
+          <p className="font-semibold">Fale com o Especialista</p>
+          <p className="truncate text-xs text-muted">Orientação profissional, sigilosa e sem julgamento</p>
         </div>
         <ChevronRight className="text-muted" />
       </Link>

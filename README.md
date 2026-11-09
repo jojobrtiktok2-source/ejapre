@@ -28,13 +28,13 @@ Os dados do usuário ficam no `localStorage` do aparelho.
 - **Fotos de exercícios de corpo e alongamento**: banco [free-exercise-db](https://github.com/yuhonas/free-exercise-db) (domínio público), já baixadas em `public/exercicios/`. São 2 quadros por exercício que o app alterna como se fosse um GIF.
 - **Demais imagens**: veja `PROMPTS-IMAGENS.md` (79 prompts, com o caminho de cada arquivo). Enquanto não existirem, o app mostra um degradê no lugar.
 
-## Coach (chat com IA)
+## Especialista Domínio (chat com IA)
 
-Aba **Coach**: chat com o **Claude Haiku 5.5** (`claude-haiku-5-5`), especializado em ejaculação precoce.
+Aba **Especialista**: chat com o **Claude Haiku 5.5** (`claude-haiku-5-5`), especializado em ejaculação precoce.
 
 - O "treinamento" está em `api/_conhecimento.ts`: persona e limites de segurança, uma base médica sobre EP (definições, causas, tratamentos, hora H, parceria, sinais de alerta) e todo o conteúdo do app (exercícios, artigos, programa, nutrição). Vai como system prompt com cache, então as mensagens seguintes custam pouco.
 - O endpoint fica em `api/chat.ts` (rota `/api/chat`). Ele responde em streaming, limita as mensagens por IP e recebe o contexto do usuário (dia do programa, sequência, nota da avaliação).
-- O coach pode colocar botões nas respostas (`[[ex:id]]`, `[[artigo:id]]`, `[[tela:x]]`) que abrem a tela certa do app.
+- O Especialista pode colocar botões nas respostas (`[[ex:id]]`, `[[artigo:id]]`, `[[tela:x]]`) que abrem a tela certa do app.
 - A chave da API fica **só no servidor**. Para rodar: copie `.env.example` para `.env.local` e preencha `ANTHROPIC_API_KEY`. Na Vercel, cadastre a mesma variável em Settings → Environment Variables.
 
 ## Banco de dados (Supabase / PostgreSQL)

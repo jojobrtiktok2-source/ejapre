@@ -31,7 +31,7 @@ function carregar(): Msg[] {
 function Avatar({ size = 36 }: { size?: number }) {
   return (
     <div className="relative shrink-0" style={{ width: size, height: size }}>
-      <Img src="/images/coach/avatar.webp" alt="Coach Domínio" className="h-full w-full rounded-full ring-2 ring-accent/40" icon={<Sparkles />} />
+      <Img src="/images/coach/avatar.webp" alt="Especialista Domínio" className="h-full w-full rounded-full ring-2 ring-accent/40" icon={<Sparkles />} />
     </div>
   );
 }
@@ -128,9 +128,9 @@ export default function Coach() {
       <header className="sticky top-0 z-20 -mx-4 flex items-center gap-3 border-b border-white/[0.05] bg-bg/75 px-4 py-3 backdrop-blur-xl">
         <Avatar size={40} />
         <div className="min-w-0 flex-1">
-          <h1 className="font-display font-semibold leading-tight">Coach Domínio</h1>
+          <h1 className="font-display font-semibold leading-tight">Especialista Domínio</h1>
           <p className="flex items-center gap-1.5 text-xs text-muted">
-            <span className="h-1.5 w-1.5 rounded-full bg-accent shadow-[0_0_8px] shadow-accent" /> Especialista em controle ejaculatório
+            <span className="h-1.5 w-1.5 rounded-full bg-accent shadow-[0_0_8px] shadow-accent" /> Assistente de saúde masculina · IA
           </p>
         </div>
         {!vazio && (
@@ -145,9 +145,9 @@ export default function Coach() {
           <div className="animate-fade-up">
             <div className="flex flex-col items-center pt-6 text-center">
               <Avatar size={84} />
-              <h2 className="h1 mt-4">Oi{s.nome ? `, ${s.nome}` : ""}! Sou seu coach.</h2>
+              <h2 className="h1 mt-4">Olá{s.nome ? `, ${s.nome}` : ""}. Sou o Especialista Domínio.</h2>
               <p className="mt-2 max-w-xs text-sm leading-relaxed text-muted">
-                Pergunte qualquer coisa sobre ejaculação precoce, exercícios, a hora H, alimentação ou como conversar com a parceria. Sem julgamentos.
+                Tire suas dúvidas sobre ejaculação precoce, exercícios, a hora H, alimentação e relacionamento. Atendimento sigiloso e sem julgamentos.
               </p>
             </div>
             <div className="mt-6 grid gap-2">
@@ -159,7 +159,7 @@ export default function Coach() {
             </div>
             <p className="mt-5 flex items-start gap-2 text-[11px] leading-relaxed text-muted">
               <ShieldCheck size={14} className="mt-0.5 shrink-0 text-accent" />
-              O coach é uma IA educativa e não substitui o médico. A conversa fica salva só neste aparelho.
+              O Especialista Domínio é uma inteligência artificial educativa, não um médico, e não substitui consulta com urologista. A conversa fica salva só neste aparelho.
             </p>
           </div>
         ) : (
