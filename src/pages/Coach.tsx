@@ -124,8 +124,8 @@ export default function Coach() {
   const vazio = msgs.length === 0;
 
   return (
-    <div className="flex min-h-screen flex-col">
-      <header className="sticky top-0 z-20 -mx-4 flex items-center gap-3 border-b border-white/[0.05] bg-bg/75 px-4 py-3 backdrop-blur-xl">
+    <div className="flex min-h-dvh flex-col">
+      <header className="sticky top-safe z-20 -mx-4 flex items-center gap-3 border-b border-white/[0.05] bg-bg/75 px-4 py-3 backdrop-blur-xl">
         <Avatar size={40} />
         <div className="min-w-0 flex-1">
           <h1 className="font-display font-semibold leading-tight">Especialista Domínio</h1>
@@ -193,7 +193,7 @@ export default function Coach() {
         <div ref={fim} />
       </div>
 
-      <div className="fixed inset-x-0 z-20 px-3" style={{ bottom: "calc(env(safe-area-inset-bottom) + 84px)" }}>
+      <div className="barra-chat fixed inset-x-0 z-20 px-3">
         <form
           onSubmit={(e) => {
             e.preventDefault();
@@ -217,8 +217,9 @@ export default function Coach() {
             }}
             rows={1}
             maxLength={2000}
+            enterKeyHint="send"
             placeholder="Escreva sua dúvida..."
-            className="max-h-[120px] min-h-[40px] flex-1 resize-none bg-transparent px-2 py-2 text-[15px] text-ink outline-none placeholder:text-muted"
+            className="max-h-[120px] min-h-[40px] flex-1 resize-none bg-transparent px-2 py-2 text-base text-ink outline-none placeholder:text-muted"
           />
           {enviando ? (
             <button type="button" onClick={() => abortar.current?.abort()} className="grid h-10 w-10 shrink-0 place-items-center rounded-xl bg-surface-2 text-ink" aria-label="Parar">

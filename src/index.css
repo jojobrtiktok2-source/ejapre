@@ -64,6 +64,39 @@ body::before {
 /* fotos do free-exercise-db: tira o branco estourado e combina com o tema */
 .foto-exercicio { filter: brightness(0.82) contrast(1.08) saturate(0.9); }
 
+/* ---------- celular: iPhone e Android ---------- */
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  overscroll-behavior-y: none; /* sem "puxar" a página inteira no Android */
+}
+body { overscroll-behavior-y: none; }
+/* elementos de interface não selecionam texto nem abrem menu de "salvar imagem" ao segurar */
+button, a, nav, img, .card { -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; }
+p, li, h1, h2, h3, textarea, input { -webkit-user-select: text; user-select: text; }
+button, a, input, textarea { touch-action: manipulation; } /* sem atraso de toque duplo */
+/* iPhone dá zoom em campos com fonte menor que 16px */
+@media (pointer: coarse) { input, textarea, select { font-size: 16px !important; } }
+
+@layer utilities {
+  .pt-safe { padding-top: env(safe-area-inset-top); }
+  .top-safe { top: env(safe-area-inset-top); }
+  .h-safe-top { height: env(safe-area-inset-top); }
+}
+
+/* teclado aberto: some o menu de baixo e a barra do chat sobe junto */
+.barra-chat {
+  bottom: calc(env(safe-area-inset-bottom) + 84px);
+  transition: bottom 0.15s ease;
+}
+html[data-teclado="aberto"] .menu-inferior { display: none; }
+html[data-teclado="aberto"] .barra-chat { bottom: calc(var(--teclado, 0px) + 8px); }
+
+/* tela instalada (sem barra do navegador) */
+@media (display-mode: standalone) {
+  body { -webkit-tap-highlight-color: transparent; }
+}
+
 .no-scrollbar::-webkit-scrollbar { display: none; }
 .no-scrollbar { scrollbar-width: none; }
 .pb-safe { padding-bottom: calc(env(safe-area-inset-bottom) + 96px); }

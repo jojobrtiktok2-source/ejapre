@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 export function Header({ titulo, voltar = true, direita }: { titulo: string; voltar?: boolean; direita?: ReactNode }) {
   const nav = useNavigate();
   return (
-    <header className="sticky top-0 z-20 -mx-4 mb-4 flex items-center gap-3 border-b border-white/[0.05] bg-bg/75 px-4 py-3 backdrop-blur-xl">
+    <header className="sticky top-safe z-20 -mx-4 mb-4 flex items-center gap-3 border-b border-white/[0.05] bg-bg/75 px-4 py-3 backdrop-blur-xl">
       {voltar && (
         <button onClick={() => nav(-1)} className="grid h-9 w-9 shrink-0 place-items-center rounded-full border border-white/[0.07] bg-surface-2/80 transition hover:border-accent/40" aria-label="Voltar">
           <ChevronLeft size={20} />

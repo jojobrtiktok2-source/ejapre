@@ -23,7 +23,7 @@ export default function Onboarding() {
   };
 
   return (
-    <div className="flex min-h-screen flex-col py-6">
+    <div className="flex min-h-dvh flex-col py-6">
       <div className="flex gap-1.5">
         {[0, 1, 2, 3].map((k) => (
           <div key={k} className={`h-1 flex-1 rounded-full ${k <= i ? "bg-accent" : "bg-surface-2"}`} />
@@ -47,7 +47,9 @@ export default function Onboarding() {
             value={nome}
             onChange={(e) => setNome(e.target.value)}
             placeholder="Seu nome ou apelido"
-            className="mt-8 w-full rounded-xl border border-line bg-surface px-4 py-3.5 text-ink outline-none focus:border-accent"
+            autoComplete="nickname"
+            enterKeyHint="done"
+            className="mt-8 w-full rounded-xl border border-line bg-surface px-4 py-3.5 text-base text-ink outline-none focus:border-accent"
           />
           <div className="card mt-6 p-4 text-xs leading-relaxed text-muted">
             Este app é educativo e não substitui consulta médica. Se você tem dor, sangue no sêmen, problemas de ereção ou o problema começou de repente, procure um urologista.

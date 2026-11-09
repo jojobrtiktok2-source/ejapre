@@ -1,6 +1,7 @@
 import { Navigate, Route, Routes, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import { BottomNav } from "./components/BottomNav";
+import { useTeclado } from "./lib/mobile";
 import { useStore } from "./lib/store";
 import Onboarding from "./pages/Onboarding";
 import Inicio from "./pages/Inicio";
@@ -21,6 +22,7 @@ import Coach from "./pages/Coach";
 export default function App() {
   const { onboarded } = useStore();
   const { pathname } = useLocation();
+  useTeclado();
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname]);
@@ -29,7 +31,9 @@ export default function App() {
   const semNav = ["/boas-vindas", "/avaliacao"].includes(pathname);
 
   return (
-    <div className="mx-auto min-h-screen max-w-md px-4">
+    <div className="mx-auto min-h-dvh max-w-md px-4 pt-safe">
+      {/* fundo da barra de status (notch / Dynamic Island) */}
+      <div className="pointer-events-none fixed inset-x-0 top-0 z-40 h-safe-top bg-bg/90 backdrop-blur-xl" />
       <main className={semNav ? "" : "pb-safe"}>
         <Routes>
           <Route path="/boas-vindas" element={<Onboarding />} />

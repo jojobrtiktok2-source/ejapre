@@ -1,5 +1,8 @@
 import { Link } from "react-router-dom";
-import { ChevronRight, Download, Trash2 } from "lucide-react";
+import { useState } from "react";
+import { ChevronRight, Download, Smartphone, Trash2 } from "lucide-react";
+import { GuiaIOS } from "@/components/Instalar";
+import { useInstalar } from "@/lib/mobile";
 import { Header, Secao } from "@/components/ui";
 import { useStore } from "@/lib/store";
 
@@ -16,6 +19,8 @@ function Alternar({ on, onChange, label }: { on: boolean; onChange: (v: boolean)
 
 export default function Ajustes() {
   const s = useStore();
+  const inst = useInstalar();
+  const [guia, setGuia] = useState(false);
 
   const exportar = () => {
     const raw = localStorage.getItem("dominio:v1") ?? "{}";
@@ -38,6 +43,15 @@ export default function Ajustes() {
         <label className="label">Seu nome</label>
         <input value={s.nome} onChange={(e) => s.set({ nome: e.target.value })} className="mt-2 w-full rounded-xl border border-line bg-surface-2 px-3 py-2.5 outline-none focus:border-accent" />
       </div>
+
+      {!inst.jaInstalado && (inst.plataforma === "ios" || inst.podeInstalarDireto) && (
+        <button onClick={() => (inst.podeInstalarDireto ? inst.instalar() : setGuia(true))} className="card mt-4 flex w-full items-center gap-3 p-4 text-left">
+          <Smartphone size={18} className="text-accent" />
+          <span className="flex-1">Instalar o app na tela inicial</span>
+          <ChevronRight size={18} className="text-muted" />
+        </button>
+      )}
+      {guia && <GuiaIOS onFechar={() => setGuia(false)} />}
 
       <Secao titulo="Treino">
         <div className="card divide-y divide-line">

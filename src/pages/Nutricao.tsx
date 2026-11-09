@@ -22,7 +22,7 @@ export default function Nutricao() {
         <Info size={16} className="shrink-0 text-accent" /> {alimentacao.aviso}
       </div>
 
-      <div className="no-scrollbar sticky top-0 z-10 -mx-4 mt-4 flex gap-2 overflow-x-auto bg-bg/90 px-4 py-2 backdrop-blur">
+      <div className="no-scrollbar sticky top-safe z-10 -mx-4 mt-4 flex gap-2 overflow-x-auto bg-bg/90 px-4 py-2 backdrop-blur">
         {abas.map((a) => (
           <button key={a} onClick={() => setAba(a)} className={aba === a ? "chip-on" : "chip"}>
             {a}

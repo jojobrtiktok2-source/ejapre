@@ -12,7 +12,7 @@ const itens = [
 
 export function BottomNav() {
   return (
-    <nav className="fixed inset-x-0 bottom-0 z-30 px-3" style={{ paddingBottom: "calc(env(safe-area-inset-bottom) + 10px)" }}>
+    <nav className="menu-inferior fixed inset-x-0 bottom-0 z-30 px-3" style={{ paddingBottom: "calc(env(safe-area-inset-bottom) + 10px)" }}>
       <div className="mx-auto flex max-w-md rounded-2xl border border-white/[0.07] bg-surface/85 p-1.5 shadow-[0_16px_40px_-12px_rgb(0_0_0/0.8)] backdrop-blur-xl">
         {itens.map(({ to, label, icon: Icon, destaque }) => (
           <NavLink

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { createPortal } from "react-dom";
 import { Link } from "react-router-dom";
 import { Award, Plus, Trash2, X, Users, User, Lock } from "lucide-react";
 import { Secao } from "@/components/ui";
@@ -46,9 +47,9 @@ function Formulario({ onFechar }: { onFechar: () => void }) {
     id: crypto.randomUUID(), data: new Date().toISOString(), tipo: "solo", minutos: 5, controle: 3, tecnicas: [], notas: "",
   });
   const up = (p: Partial<Registro>) => setR({ ...r, ...p });
-  return (
-    <div className="fixed inset-0 z-40 flex items-end bg-black/60 backdrop-blur-sm" onClick={onFechar}>
-      <div className="mx-auto max-h-[90vh] w-full max-w-md overflow-y-auto rounded-t-3xl bg-surface p-5 animate-fade-up" onClick={(e) => e.stopPropagation()}>
+  return createPortal(
+    <div className="fixed inset-0 z-50 flex items-end bg-black/60 backdrop-blur-sm" onClick={onFechar}>
+      <div className="mx-auto max-h-[90dvh] w-full max-w-md overflow-y-auto overscroll-contain rounded-t-3xl bg-surface p-5 animate-fade-up" style={{ paddingBottom: "calc(env(safe-area-inset-bottom) + 20px)" }} onClick={(e) => e.stopPropagation()}>
         <div className="flex items-center justify-between">
           <h2 className="h2">Novo registro</h2>
           <button onClick={onFechar} className="grid h-9 w-9 place-items-center rounded-full bg-surface-2" aria-label="Fechar"><X size={18} /></button>
@@ -78,7 +79,8 @@ function Formulario({ onFechar }: { onFechar: () => void }) {
         <textarea value={r.notas} onChange={(e) => up({ notas: e.target.value })} rows={3} className="mt-2 w-full rounded-xl border border-line bg-surface-2 p-3 text-sm outline-none focus:border-accent" placeholder="Opcional" />
         <button className="btn-primary mt-5 w-full" onClick={() => { salvarRegistro(r); onFechar(); }}>Salvar</button>
       </div>
-    </div>
+    </div>,
+    document.body,
   );
 }
 

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { Flame, Wind, Zap, LifeBuoy, Settings, ChevronRight, Play, BookOpen, MessageCircle } from "lucide-react";
 import { Img, iconeFase } from "@/components/Img";
+import { ConviteInstalar } from "@/components/Instalar";
 import { Barra, Secao } from "@/components/ui";
 import { artigos, exercicioPorId, programa } from "@/lib/data";
 import { hoje, useStore } from "@/lib/store";
@@ -67,6 +68,8 @@ export default function Inicio() {
           <Barra valor={s.habitosAtivos.length ? habitosHoje / s.habitosAtivos.length : 0} className="mt-2" />
         </Link>
       </div>
+
+      <ConviteInstalar />
 
       <Link to="/coach" className="card mt-4 flex items-center gap-3 overflow-hidden p-4">
         <div className="grid h-11 w-11 shrink-0 place-items-center rounded-full text-bg" style={{ backgroundImage: "linear-gradient(135deg,#2DD4BF,#38BDF8)" }}>

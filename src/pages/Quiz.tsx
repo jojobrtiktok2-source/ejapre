@@ -29,7 +29,7 @@ export default function Quiz() {
   if (tempo !== null) {
     const f = faixaDe(pontos);
     return (
-      <div className="flex min-h-screen flex-col py-6 animate-fade-up">
+      <div className="flex min-h-dvh flex-col py-6 animate-fade-up">
         <p className="label">Seu resultado</p>
         <div className="card mt-4 p-6 text-center">
           <div className={`font-display text-6xl font-bold ${corTexto[f.cor]}`}>
@@ -61,7 +61,7 @@ export default function Quiz() {
 
   const pergunta = passo < quiz.perguntas.length ? quiz.perguntas[passo] : { texto: quiz.tempo.texto, opcoes: quiz.tempo.opcoes };
   return (
-    <div className="flex min-h-screen flex-col py-2">
+    <div className="flex min-h-dvh flex-col py-2">
       {onboarded ? <Header titulo="Autoavaliação" /> : <div className="h-4" />}
       <div className="flex items-center gap-3">
         <div className="h-1.5 flex-1 overflow-hidden rounded-full bg-surface-2">
