@@ -1,6 +1,6 @@
 // Service worker do Domínio: abre sem internet e carrega rápido.
 // Troque a versão quando quiser forçar todos os aparelhos a baixar tudo de novo.
-const VERSAO = "dominio-v1";
+const VERSAO = "dominio-v2";
 const ESSENCIAIS = ["/", "/manifest.webmanifest", "/images/marca/icone-192.png", "/images/marca/icone-512.png", "/images/marca/logo.webp"];
 
 self.addEventListener("install", (e) => {
@@ -31,6 +31,8 @@ self.addEventListener("fetch", (e) => {
 
   // Chat e qualquer API: sempre direto na rede, nunca em cache.
   if (url.origin === location.origin && url.pathname.startsWith("/api/")) return;
+  // Página de vendas (/off): não é o app, fica fora do service worker.
+  if (url.origin === location.origin && (url.pathname === "/off" || url.pathname.startsWith("/off/"))) return;
 
   // Páginas: tenta a rede (versão nova); sem internet, abre o app salvo.
   if (req.mode === "navigate") {

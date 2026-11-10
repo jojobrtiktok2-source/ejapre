@@ -1,0 +1,9 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    { "source": "/off", "destination": "/off/", "permanent": false }
+  ],
+  "rewrites": [
+    { "source": "/((?!api/|off/|assets/|images/|exercicios/).*)", "destination": "/index.html" }
+  ]
+}
